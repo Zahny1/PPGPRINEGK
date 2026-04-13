@@ -4,6 +4,7 @@ public class PlayerHealth : MonoBehaviour {
     [Header("Player Stats")]
     public int maxHealth = 10;
     public int currentHealth;
+    public object Healtbar;
 
     void Awake() {
         currentHealth = maxHealth;
